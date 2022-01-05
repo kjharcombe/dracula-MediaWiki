@@ -1,8 +1,8 @@
 /* CSS placed here will affect users of the Timeless skin */
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro');
 html {
-	background: rgb(0,0,0) !important;
-	height: 100%;
+	background: rgb(40,42,54) !important;
+	height: 75%;
 	font-size: 1.1em;
 	filter: brightness(100%) contrast(100%) grayscale(0%) !important;
 	-webkit-filter: brightness(100%) contrast(100%) grayscale(0%) !important;
@@ -10,9 +10,9 @@ html {
 }
 body {
 	margin: 0;
-	background: #000;
-	color: #ccccff;
-	font-family: 'Merriweather', serif;
+	background: #282a36;
+	color: #f8f8f2;
+	font-family: 'Source Sans Pro', serif;
 }
 a {
 	color: #cc6600;
@@ -21,18 +21,19 @@ a:hover, a:visited {
 	color: #cc3300;
 }
 h1 {
-	color: white;
+	color: #f8f8f2;
 	text-shadow: 1px 1px 1px #000;
 	font-size: 40px !important;
 }
 h1, h2, h3, h4 {
-	color: #6699ff;
-	font-family: 'Merriweather', serif;
+	color: #f8f8f2;
+	font-family: 'Source Sans Pro', serif;
 }
 #personal .dropdown b {
 	font-weight: normal;
 }
 b, strong {
+    color: #f8f8f2;
 	text-shadow: 1px 1px 1px #000;
 }
 #f-list {
@@ -44,11 +45,11 @@ div.editOptions {
 	background: #555;
 }
 #mw-header-nav-hack {
-	border-top: solid 2px #333;
-	background: #333;
+	border-top: solid 2px #282a36;
+	background: #282a36;
 }
 #mw-site-navigation .sidebar-inner {
-	background: #333;
+	background: #282a36;
 	border: 0;
 }
 @media screen and (min-width: 851px) {
@@ -83,7 +84,7 @@ div.editOptions {
 }
 #mw-site-navigation .sidebar-chunk {
 	border: outset #222;
-	background: #333;
+	background: #282a36;
 	box-shadow: 2px 2px 1px rgba(0,0,0,0.5);
 	border-radius: 3px;
 }
@@ -106,13 +107,13 @@ div.editOptions {
 	margin: 0;
 }
 #searchInput-container {
-	background: #333;
+	background: #282a36;
 	height: 35px;
 }
 #simpleSearch {
 	border: inset 1px #000;
 	border-radius: 3px;
-	background: #333;
+	background: #282a36;
 	height: 35px;
 	width: 48vw;
 	position: absolute;
@@ -159,7 +160,7 @@ div.editOptions {
 	background-size: contain;
 }
 #mw-header-container {
-	background: #555;
+	background: #282a36;
 }
 #mw-header {
 	width: 100%;
@@ -248,7 +249,7 @@ div.editOptions {
 	}
 }
 #mw-content {
-	background: #333;
+	background: #282a36;
 	border: solid #946c20;
 	-webkit-border-bottom-right-radius: 4px;
 	-webkit-border-bottom-left-radius: 4px;
@@ -261,14 +262,14 @@ div.editOptions {
 	color: #cccc00;
 }
 #mw-related-navigation .sidebar-chunk {
-	background: #333;
+	background: #282a36;
 	border: outset #222;
 	box-shadow: 2px 2px 1px rgba(0,0,0,0.5);
 	border-radius: 3px;
 }
 @media screen and (max-width: 1099px) and (min-width: 851px) {
 	#mw-related-navigation .sidebar-chunk {
-		background: #333;
+		background: #282a36;
 		border: outset #222;
 		box-shadow: 2px 2px 1px rgba(0,0,0,0.5);
 		border-radius: 3px;
@@ -295,7 +296,7 @@ div.editOptions {
 	line-height: 25px;
 }
 #personal h2 {
-	text-shadow: 2px 2px 0 #333;
+	text-shadow: 2px 2px 0 #282a36;
 	padding-top: 7px;
 	font-size: 24px;
 	text-transform: lowercase;
@@ -308,7 +309,7 @@ div.editOptions {
 	color: #000;
 }
 .oo-ui-labelElement-label {
-	text-shadow: 1px 2px #333;
+	text-shadow: 1px 2px #282a36;
 }
 #iframeframe {
 	height: 700px;
@@ -325,17 +326,17 @@ fieldset {
 	border: solid #111;
 }
 input {
-	background: #333;
+	background: #282a36;
 	border: solid 1px #111!important;
 	border-radius: 2px;
 	padding-left: 5px;
 	color: #999;
 }
 .mw-ui-button.mw-ui-progressive, .mw-ui-button.mw-ui-progressive:active, .mw-ui-button.mw-ui-progressive.mw-ui-checked, input[type='submit'], input[type='button'], button {
-	border: solid 1px #333!important;
+	border: solid 1px #282a36!important;
 	border-bottom: 0!important;
 	text-shadow: 0 0 0 #000 !important;
-	border-bottom: solid 1px #333!important;
+	border-bottom: solid 1px #282a36!important;
 }
 .oo-ui-flaggedElement-destructive {
 	background: #111;
@@ -357,7 +358,7 @@ input {
 	}
 }
 .oo-ui-textInputWidget input, .oo-ui-textInputWidget textarea {
-	background-color: #333;
+	background-color: #282a36;
 	color: #fff;
 }
 .oo-ui-textInputWidget > .oo-ui-labelElement-label {
@@ -444,5 +445,5 @@ pre, .mw-code {
 }
 .oo-ui-iconWidget.oo-ui-iconElement.oo-ui-iconElement-icon {
 	background-color: #B0B0B0;
-	border: 1px solid #333;
+	border: 1px solid #282a36;
 }
